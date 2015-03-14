@@ -44,6 +44,3 @@ class FlattenXml
         }
     }
 }
-
-$t = new FlattenXML();
-var_dump($t->flattenXml("<s blah=\"lip\"><t>Dave</t><e>Less</e></s>"));
